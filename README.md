@@ -12,10 +12,4 @@ Programming Language
 Dependencies
 -------------
 
-  * AAC
-    - livedata
-    - room
-    - viewmodel
-  * rx-java
-  * Koin
-  
+none
