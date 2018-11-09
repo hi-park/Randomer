@@ -1,4 +1,4 @@
-I'm working on it. Do not download it.
+for Studying
 
 
 # Randomer
