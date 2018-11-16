@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Randomer</string>
+
+    <string name="random">Random</string>
+    <string name="list">List</string>
+    <string name="navigation_view_header_title">Items</string>
+    <string name="no_items_all">You have no Items!</string>
+    <string name="no_items_add">Add a item +</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="empty_item_message">Item cannot be empty</string>
+    <string name="loading_items_error">Error while loading items</string>
+    <string name="delete">Delete</string>
+    <string name="no_data">No data</string>
+    <string name="loading">LOADING</string>
+
 </resources>
