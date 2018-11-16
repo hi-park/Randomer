@@ -39,7 +39,7 @@ class AddEditItemFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val root = inflater.inflate(R.layout.add_edit_item_fragment, container, false)
+        val root = inflater.inflate(R.layout.fragment_add_edit_item, container, false)
         with(root) {
             title = findViewById(R.id.add_task_title)
             description = findViewById(R.id.add_task_description)

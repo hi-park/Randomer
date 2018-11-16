@@ -1,7 +1,6 @@
 package com.hipark.randomer.itemdetail
 
 import android.app.Activity
-import android.content.ClipDescription
 import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
@@ -33,7 +32,7 @@ class ItemDetailFragment : Fragment() {
         itemId  = arguments!!.getString(ARGUMENT_ITEM_ID)
         itemRepository = Injection.provideItemRepository(requireContext())
 
-        val root = inflater.inflate(R.layout.itemdetail_fragment, container, false)
+        val root = inflater.inflate(R.layout.fragment_itemdetail, container, false)
 
         with(root) {
 

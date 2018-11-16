@@ -48,7 +48,7 @@ class MainFragment : Fragment() {
     private val listAdapter = ItemAdapter(ArrayList(0), itemListener)
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val root = inflater.inflate(R.layout.main_fragment, container, false)
+        val root = inflater.inflate(R.layout.fragment_main, container, false)
 
         itemsRepository = Injection.provideItemRepository(requireContext())
 
